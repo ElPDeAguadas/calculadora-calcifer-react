@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/calculadora-calcifer-react/build/static/css/main.5fcbbad7.css",
+    "main.js": "/calculadora-calcifer-react/build/static/js/main.cc670878.js",
+    "static/media/right-image.jpg": "/calculadora-calcifer-react/build/static/media/right-image.2128d6ca591d4ef2f44c.jpg",
+    "static/media/calcifer-logo.png": "/calculadora-calcifer-react/build/static/media/calcifer-logo.f465e27c9171457ce285.png",
+    "static/media/left-image.jpg": "/calculadora-calcifer-react/build/static/media/left-image.528e189e5ca223efaa5c.jpg",
+    "index.html": "/calculadora-calcifer-react/build/index.html",
+    "main.5fcbbad7.css.map": "/calculadora-calcifer-react/build/static/css/main.5fcbbad7.css.map",
+    "main.cc670878.js.map": "/calculadora-calcifer-react/build/static/js/main.cc670878.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fcbbad7.css",
+    "static/js/main.cc670878.js"
+  ]
+}
