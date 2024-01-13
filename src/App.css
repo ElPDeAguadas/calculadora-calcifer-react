@@ -1,38 +1,73 @@
+/* App.css */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: rgb(190, 119, 60);
+  background-image: url("https://www.bhmpics.com/downloads/castillo-ambulante-wallpapers/1.thumb-1920-325547.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  font-family: Lato, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.calculadora-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculadora-calcifer-logo {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calcifer-logo {
+  height: 100px;
+  padding: 0;
+  margin-top: -375px;
+  border-radius: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor-calculadora {
+  width: 400px;
+  height: 475px;
+  padding: 14px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: 5px solid white;
+  margin-top: -380px; /* Añadido para separar la calculadora de las imágenes */
 }
+
+.fila {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.left-image {
+  max-height: 300px;
+  margin-right: 200px;
+  margin-top: 200px;
+  border-radius: 150px;
+  opacity: 0.8;
+}
+
+.right-image {
+  max-height: 300px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 150px;
+  opacity: 0.8;
+}
+
